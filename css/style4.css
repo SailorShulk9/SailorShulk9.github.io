@@ -26,8 +26,7 @@ html {
 .background1 {
   color: #fff;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #1cda44), color-stop(1, #0A8754));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background1 button {
@@ -120,6 +119,11 @@ html {
   margin-bottom: 20px;
   background-color: #fff;
   color: #000;
+}
+
+.story-text {
+  margin: 20px;
+  width: 90%;
 }
 
 body {
@@ -1347,7 +1351,10 @@ span#chewy {
   padding: 50px 0;
   color: #7f7f7f;
   position: relative;
+  width: 100%;
+  margin: 0px !important;
 }
+
 #footer .gotop {
   position: absolute;
   top: -20px;
