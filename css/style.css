@@ -115,8 +115,7 @@ img.mobile-snake {
 .background1 {
   color: #fff;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #1cda44), color-stop(1, #0A8754));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background1 button {
@@ -129,8 +128,7 @@ img.mobile-snake {
 .background2 {
   color: #fff;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3a9447), color-stop(1, #ffbc22));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background2 button {
@@ -145,8 +143,7 @@ img.mobile-snake {
 .background3 {
   color: #fff;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #2291ae), color-stop(1, #0A8754));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background3 button {
@@ -161,8 +158,7 @@ img.mobile-snake {
 .background5 {
   color: #111;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #98daff), color-stop(1, #f5ff39));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background5 button {
@@ -177,8 +173,7 @@ img.mobile-snake {
 .background6 {
   color: #111;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, rgb(250, 127, 127)), color-stop(1, #de85f0));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background6 button {
@@ -193,8 +188,7 @@ img.mobile-snake {
 .background7 {
   color: #fff;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #424292), color-stop(1, #593159));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .space-header {
@@ -213,8 +207,7 @@ img.mobile-snake {
 .background8 {
   color: #fff;
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ffd000), color-stop(1, #0eca7f));
-  margin: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .background8 button {
@@ -225,6 +218,10 @@ img.mobile-snake {
   background-color: #9795f7;
 }
 
+.story-text {
+  margin: 20px;
+  width: 90%;
+}
 
 body {
   font-family: "Chewy", Arial, sans-serif;
@@ -1607,6 +1604,7 @@ span#chewy {
   color: #7f7f7f;
   position: relative;
   width: 100%;
+  margin: 0px !important;
 }
 
 #footer .gotop {
@@ -1803,6 +1801,21 @@ span#chewy {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+.img{
+  max-width: 20%;
+  display: block;
+ }
+ 
+ .img2{
+   max-width: 40%;
+   display: block;
+  }
+ 
+  .img3{
+   max-width: 60%;
+   display: block;
+  }
 
 
 /*# sourceMappingURL=style.css.map */
